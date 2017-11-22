@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/learn-co-curriculum/node-timer-lab#readme",
   "devDependencies": {
-    "mocha": "2.4.5",
-    "chai": "3.5.0"
+    "chai": "3.5.0",
+    "mocha": "2.4.5"
+  },
+  "dependencies": {
+    "learn": "^0.1.5",
+    "mocha-multi": "^0.11.1"
   }
 }
