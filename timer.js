@@ -12,7 +12,7 @@ let seconds =
 const decreaseTime = () => {
   if (typeof seconds !== "number") {
     console.log("Incorrect input!");
-    process.exit();
+    process.exit(1);
   }
 
   if (seconds > 0) {
@@ -20,7 +20,7 @@ const decreaseTime = () => {
     console.log("Left: " + seconds + "s");
   } else {
     global.clearInterval(timer);
-    process.exit();
+    process.exit(0);
   }
 };
 
